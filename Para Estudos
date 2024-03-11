@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de casa</title>
+    <!-- Link para o Bootstrap via CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navegação</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Documentos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Seleção de itens do Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </ul>
+        <form class="d-flex" role="Pesquisa">
+          <input class="form-control me-2" type="Pesquisa" placeholder="Pesquisa" aria-label="Pesquisa">
+          <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Um trabalho divertido</h1>
+        <nav>
+            <a href="#" class="text-white">Início</a> |
+            <a href="#" class="text-white">Sobre</a> |
+            <a href="#" class="text-white">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Corpo da Página -->
+    <div class="container mt-4">
+        <section>
+            <h2> <p class="font-weight-bold">Sobre trabalho e diversão</p> </h2>
+                 
+            <p>Diversão e local de trabalho normalmente não são sinônimos. Mas por que não? Afinal,
+            passamos bastante tempo no trabalho: 81.396 horas, em média, para ser mais preciso.
+            Isso equivale a mais de nove anos. Imagine passar tanto tempo sem rir.
+            Não faz mal desabafar e rir com os colegas de vez em quando, certo?
+            Na verdade, alguns diriam que é essencial para gostar do trabalho.</p>
+            <p>Alguns chefes consideram a diversão no trabalho pouco profissional,
+            uma distração indesejável que afeta a concentração e tira um tempo valioso de tarefas importantes.
+            Mas essa visão pode ser limitada. Não é razoável esperar que todos estejam focados a cada minuto todos os dias.
+            Em geral, um ambiente totalmente microgerenciado não traz à tona o que há de melhor nas pessoas.
+            Felizmente, um pouco de diversão no dia de trabalho pode resultar em um ambiente mais saudável e produtivo.</p>
+        </section>
+        <section>
+            <h2> <p class="font-weight-bold">Aqui estão algumas razões pelas quais tornar o trabalho divertido é importante: </p></h2>
+            <p> 1. Funcionários mais felizes e saudáveis: Um ambiente de trabalho sem graça,
+                monótono e sem qualquer senso de diversão pode resultar em sentimentos de tédio,
+                desinteresse e até depressão. Isso significa que um ambiente de escritório divertido
+                é ideal para seus resultados financeiros. De acordo com uma pesquisa da Gallup,
+                as empresas com uma força de trabalho altamente engajada têm uma lucratividade 23% maior.</p>
+            <p> 2. Colaboração e produtividade: A colaboração é essencial para a produtividade, a criatividade, a inovação e o desempenho.
+                Se os funcionários estiverem se divertindo, eles vão gostar de conversar e colaborar em um nível mais profundo e emocional,
+                promovendo resultados melhores em todos os aspectos. A diversão também pode quebrar barreiras de comunicação entre equipes que
+                trabalham para a mesma organização, mas em departamentos diferentes.</p>
+            <p> 3. Retenção de talentos: As pessoas que gostam de seus empregos têm maior probabilidade de continuar na empresa.
+                Um local de trabalho monótono pode resultar em alta rotatividade porque funcionários descomprometidos buscarão oportunidades em outro lugar.
+                As empresas podem pagar um preço elevado por taxas de retenção baixas, pois o custo de substituição de um funcionário pode ser de seis a nove meses de salário.
+                As elevadas taxas de rotatividade também podem levar à perda de habilidades essenciais e de conhecimentos institucionais.</p>    
+            <p> 4. Melhor relacionamento entre colegas: As pessoas que trabalham juntas normalmente passam muito tempo na companhia umas das outras,
+                às vezes até mais do que com as próprias famílias. Em situações estressantes, isso pode gerar tensão e aspereza,
+                o que pode ser extremamente prejudicial ao bom funcionamento da organização. Um clima mais leve pode ajudar a
+                reduzir conflitos e graves divergências decorrentes.</p>    
+            <p> 5. Saúde mental e bem-estar: No Reino Unido, um número recorde de 185,6 milhões de dias de trabalho foram perdidos devido a doenças ou lesões em 2022.
+                Quando as empresas priorizam o bem-estar dos colaboradores, o resultado é um ambiente de trabalho mais positivo, menos erros relacionados com o trabalho e
+                níveis mais baixos de ausências na equipe.</p>
+        </section>
+        <section>
+            <h2><p class="font-weight-bold">Conclusão</p></h2>
+            <p>Portanto, considere adotar algumas práticas para tornar o trabalho mais divertido, como criar momentos de descontração, promover eventos e investir em um ambiente de escritório que valorize a felicidade e o bem-estar dos funcionários. 🌟👩‍💼👨‍💼</p>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-2">
+        © 2024 Work Work Work
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
